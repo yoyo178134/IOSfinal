@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,22 @@
 		7601764224993B240013E5AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7601764124993B240013E5AE /* Assets.xcassets */; };
 		7601764524993B240013E5AE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7601764424993B240013E5AE /* Preview Assets.xcassets */; };
 		7601764824993B240013E5AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7601764624993B240013E5AE /* LaunchScreen.storyboard */; };
+		7601765124993B640013E5AE /* SwiftUIPullToRefresh in Frameworks */ = {isa = PBXBuildFile; productRef = 7601765024993B640013E5AE /* SwiftUIPullToRefresh */; };
+		7601765324993C260013E5AE /* weatherList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7601765224993C260013E5AE /* weatherList.swift */; };
+		7601765524993C690013E5AE /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7601765424993C690013E5AE /* Weather.swift */; };
+		761D81F8249FA80200571CDD /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 761D81F7249FA80200571CDD /* Kingfisher */; };
+		761D81FA249FA80200571CDD /* KingfisherSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 761D81F9249FA80200571CDD /* KingfisherSwiftUI */; };
+		761D81FD24A1AEC000571CDD /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761D81FC24A1AEC000571CDD /* InfoView.swift */; };
+		762F62BF249974F10087DC66 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762F62BE249974F10087DC66 /* AppView.swift */; };
+		762F62C3249CC3E70087DC66 /* PagingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762F62C2249CC3E70087DC66 /* PagingView.swift */; };
+		766DAA9B249E5381004E7363 /* countryEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766DAA9A249E5381004E7363 /* countryEditor.swift */; };
+		766DAA9D249E53A5004E7363 /* country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766DAA9C249E53A5004E7363 /* country.swift */; };
+		766DAAA1249E548C004E7363 /* countryData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766DAAA0249E548C004E7363 /* countryData.swift */; };
+		766DAAA3249E5A21004E7363 /* countryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766DAAA2249E5A21004E7363 /* countryList.swift */; };
+		766DAAA5249E5BBA004E7363 /* countryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766DAAA4249E5BBA004E7363 /* countryRow.swift */; };
+		766DAAA7249E653D004E7363 /* weatherPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766DAAA6249E653D004E7363 /* weatherPage.swift */; };
+		766DAAAA249F9E63004E7363 /* nineGAG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766DAAA9249F9E63004E7363 /* nineGAG.swift */; };
+		766DAAAC249FA10F004E7363 /* nineGAGView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766DAAAB249FA10F004E7363 /* nineGAGView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +40,19 @@
 		7601764424993B240013E5AE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7601764724993B240013E5AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7601764924993B240013E5AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7601765224993C260013E5AE /* weatherList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weatherList.swift; sourceTree = "<group>"; };
+		7601765424993C690013E5AE /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		761D81FC24A1AEC000571CDD /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		762F62BE249974F10087DC66 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		762F62C2249CC3E70087DC66 /* PagingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingView.swift; sourceTree = "<group>"; };
+		766DAA9A249E5381004E7363 /* countryEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = countryEditor.swift; sourceTree = "<group>"; };
+		766DAA9C249E53A5004E7363 /* country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = country.swift; sourceTree = "<group>"; };
+		766DAAA0249E548C004E7363 /* countryData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = countryData.swift; sourceTree = "<group>"; };
+		766DAAA2249E5A21004E7363 /* countryList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = countryList.swift; sourceTree = "<group>"; };
+		766DAAA4249E5BBA004E7363 /* countryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = countryRow.swift; sourceTree = "<group>"; };
+		766DAAA6249E653D004E7363 /* weatherPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weatherPage.swift; sourceTree = "<group>"; };
+		766DAAA9249F9E63004E7363 /* nineGAG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nineGAG.swift; sourceTree = "<group>"; };
+		766DAAAB249FA10F004E7363 /* nineGAGView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nineGAGView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +60,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				761D81FA249FA80200571CDD /* KingfisherSwiftUI in Frameworks */,
+				761D81F8249FA80200571CDD /* Kingfisher in Frameworks */,
+				7601765124993B640013E5AE /* SwiftUIPullToRefresh in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +88,18 @@
 		7601763A24993B220013E5AE /* final */ = {
 			isa = PBXGroup;
 			children = (
+				761D81FB24A1AE9B00571CDD /* info */,
+				766DAAA8249F9E46004E7363 /* nineGAG */,
+				766DAA9F249E5422004E7363 /* country */,
+				766DAA9E249E53FE004E7363 /* weatherSet */,
 				7601763B24993B220013E5AE /* AppDelegate.swift */,
+				762F62C2249CC3E70087DC66 /* PagingView.swift */,
 				7601763D24993B220013E5AE /* SceneDelegate.swift */,
 				7601763F24993B220013E5AE /* ContentView.swift */,
-				7601764124993B240013E5AE /* Assets.xcassets */,
-				7601764624993B240013E5AE /* LaunchScreen.storyboard */,
+				762F62BE249974F10087DC66 /* AppView.swift */,
 				7601764924993B240013E5AE /* Info.plist */,
+				7601764624993B240013E5AE /* LaunchScreen.storyboard */,
+				7601764124993B240013E5AE /* Assets.xcassets */,
 				7601764324993B240013E5AE /* Preview Content */,
 			);
 			path = final;
@@ -73,6 +111,45 @@
 				7601764424993B240013E5AE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		761D81FB24A1AE9B00571CDD /* info */ = {
+			isa = PBXGroup;
+			children = (
+				761D81FC24A1AEC000571CDD /* InfoView.swift */,
+			);
+			path = info;
+			sourceTree = "<group>";
+		};
+		766DAA9E249E53FE004E7363 /* weatherSet */ = {
+			isa = PBXGroup;
+			children = (
+				7601765224993C260013E5AE /* weatherList.swift */,
+				7601765424993C690013E5AE /* Weather.swift */,
+				766DAAA6249E653D004E7363 /* weatherPage.swift */,
+			);
+			path = weatherSet;
+			sourceTree = "<group>";
+		};
+		766DAA9F249E5422004E7363 /* country */ = {
+			isa = PBXGroup;
+			children = (
+				766DAA9C249E53A5004E7363 /* country.swift */,
+				766DAA9A249E5381004E7363 /* countryEditor.swift */,
+				766DAAA0249E548C004E7363 /* countryData.swift */,
+				766DAAA2249E5A21004E7363 /* countryList.swift */,
+				766DAAA4249E5BBA004E7363 /* countryRow.swift */,
+			);
+			path = country;
+			sourceTree = "<group>";
+		};
+		766DAAA8249F9E46004E7363 /* nineGAG */ = {
+			isa = PBXGroup;
+			children = (
+				766DAAA9249F9E63004E7363 /* nineGAG.swift */,
+				766DAAAB249FA10F004E7363 /* nineGAGView.swift */,
+			);
+			path = nineGAG;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -91,6 +168,11 @@
 			dependencies = (
 			);
 			name = final;
+			packageProductDependencies = (
+				7601765024993B640013E5AE /* SwiftUIPullToRefresh */,
+				761D81F7249FA80200571CDD /* Kingfisher */,
+				761D81F9249FA80200571CDD /* KingfisherSwiftUI */,
+			);
 			productName = final;
 			productReference = 7601763824993B220013E5AE /* final.app */;
 			productType = "com.apple.product-type.application";
@@ -119,6 +201,10 @@
 				Base,
 			);
 			mainGroup = 7601762F24993B220013E5AE;
+			packageReferences = (
+				7601764F24993B630013E5AE /* XCRemoteSwiftPackageReference "SwiftUI-PullToRefresh" */,
+				761D81F6249FA80200571CDD /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 7601763924993B220013E5AE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -146,9 +232,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				761D81FD24A1AEC000571CDD /* InfoView.swift in Sources */,
+				766DAAA7249E653D004E7363 /* weatherPage.swift in Sources */,
+				7601765324993C260013E5AE /* weatherList.swift in Sources */,
+				766DAA9B249E5381004E7363 /* countryEditor.swift in Sources */,
 				7601763C24993B220013E5AE /* AppDelegate.swift in Sources */,
+				766DAA9D249E53A5004E7363 /* country.swift in Sources */,
+				762F62BF249974F10087DC66 /* AppView.swift in Sources */,
+				766DAAA1249E548C004E7363 /* countryData.swift in Sources */,
+				762F62C3249CC3E70087DC66 /* PagingView.swift in Sources */,
+				766DAAA5249E5BBA004E7363 /* countryRow.swift in Sources */,
+				766DAAAA249F9E63004E7363 /* nineGAG.swift in Sources */,
+				766DAAAC249FA10F004E7363 /* nineGAGView.swift in Sources */,
 				7601763E24993B220013E5AE /* SceneDelegate.swift in Sources */,
 				7601764024993B220013E5AE /* ContentView.swift in Sources */,
+				7601765524993C690013E5AE /* Weather.swift in Sources */,
+				766DAAA3249E5A21004E7363 /* countryList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +441,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7601764F24993B630013E5AE /* XCRemoteSwiftPackageReference "SwiftUI-PullToRefresh" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/SwiftUI-PullToRefresh";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		761D81F6249FA80200571CDD /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.14.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7601765024993B640013E5AE /* SwiftUIPullToRefresh */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7601764F24993B630013E5AE /* XCRemoteSwiftPackageReference "SwiftUI-PullToRefresh" */;
+			productName = SwiftUIPullToRefresh;
+		};
+		761D81F7249FA80200571CDD /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 761D81F6249FA80200571CDD /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		761D81F9249FA80200571CDD /* KingfisherSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 761D81F6249FA80200571CDD /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = KingfisherSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7601763024993B220013E5AE /* Project object */;
 }
